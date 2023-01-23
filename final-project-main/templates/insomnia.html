@@ -1,0 +1,28 @@
+
+{% block body %}
+<h1>insomnia</h1>
+
+
+
+<form action="/insomnia_answers" method="post">
+{% for i in question %}
+
+<label for="dquestions">
+ 
+      {{ i.question }}
+</label>
+          zero being none at all, 4 being all the time or often:
+          <select name="{{i.question_id}}" id="aanswers" required>
+            <option value="">Select Choice</option>
+            {% for num in range(5) %}
+              <option value="{{ num }}">{{ num }}</option>
+            {% endfor %}
+          </select>
+        </p>
+  </li>
+</ul>
+{% endfor %}
+<p><input type="submit"></p>
+</form>
+<a href="/login">Return Home</a>
+{% endblock %}

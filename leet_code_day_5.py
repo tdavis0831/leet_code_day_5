@@ -22,7 +22,12 @@ def twoSum(nums, target):
         if target - nums[i] not in dict:
             dict[nums[i]] = i
         else:
-            return [dict[target - nums[i]], i]
+            print(dict[target - nums[i]])
+            print(dict[2])
+		
+            print(i)
+            return [dict[target - nums[i]], i] #gives us back target-numsi in this case, 9-7 so 2 
+			
 
 
 print(twoSum(nums, target))

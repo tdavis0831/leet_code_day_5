@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{%block title%}{% endblock %}
+
+{%block body %}
+
+<h3> If your score is higher than the baseline, it is 
+  suggested that you reach out to a mental health provider for follow up.
+</h3>
+
+ <div class="about">
+      <h3>The total score of your answers was  {{ answers }}</h3>
+        
+         
+      <h3> A healthy baseline for for this test is {{baselines}} or below</h3>
+      
+      <div id="rdiv">
+
+      </div>
+<div id="results">
+      <h2>Assessment questions and your responses: </h2>
+   
+  
+
+    
+      <table style="width:1000px; border: 1px solid black">
+        <tr>
+            {% for q in anxiety_questions %}
+                <th>{{ q.question }}</th>
+            {% endfor %}
+        </tr>
+        
+               
+                  <tr>
+                        {% for i in individual_answers %}
+                            <td>{{ i }}</td>
+                        {% endfor %}
+                   </tr>
+              
+        
+        </table>
+     
+      </div>
+      <div id="therap" >
+      <h1>To find a list of mental health providers in your area, please 
+        click <a href="/therapist" target="_blank">HERE</h1>
+      
+        </div>
+
+ 
+              
+
+
+{% endblock %}

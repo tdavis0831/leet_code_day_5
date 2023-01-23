@@ -1,0 +1,256 @@
+
+
+body {
+	background-image: url(https://cdn.pixabay.com/photo/2018/04/15/19/45/lotus-3322667_960_720.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size:500px;
+	background-color: #6D9886;
+	 
+	overflow-x:hidden;
+  
+  } 
+#compare{
+	width: 100%;
+}
+
+  #body1{	
+	background-attachment: fixed;
+	background-position: center;
+	background-size:500px;
+	background-color: #6D9886;
+	 
+	overflow-x:hidden;
+
+  }
+
+.container-fluid{
+	background-color: #D9CAB3;
+	font-family: 'Lato', sans-serif;
+
+	
+}
+.nav-item{
+	margin-left:60px;
+	margin-right:60px;
+	font-size: 16px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	right: -95%;
+	width: 100%;
+	height: 2.5rem; 
+	font-family: 'Lato', sans-serif;
+	
+	        
+  }
+
+  #hpheader{
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 70px;
+}
+.title{	text-align:center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 64px;
+}
+#pheader{
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 42px;
+}
+#map{
+	position:absolute;
+    top:195px;
+    right: 10px;
+
+	width: 400px; 
+	padding: 60px;
+	word-wrap: break-word;
+	font-family: 'Lato', sans-serif;
+	font-size: larger;
+
+}
+#mapc{
+	padding: 1em;
+    height: 5%;
+	background-color: #6D9886;
+}
+a{
+	color:black;
+}
+
+  .container-fluid div{
+	display: flex;
+	justify-content: space-around;
+  }
+
+.about{
+	
+	width: 400px; 
+	padding: 60px;
+	word-wrap: break-word;
+	font-family: 'Lato', sans-serif;
+	font-size: larger;
+
+}
+
+#get{	position:absolute;
+    top:195px;
+    right: 10px;
+
+	width: 400px; 
+	padding: 60px;
+	word-wrap: break-word;
+	font-family: 'Lato', sans-serif;
+	font-size: larger;
+
+	
+
+}
+#therap{
+	position:absolute;
+    top:195px;
+    right: 10px;
+
+	width: 400px; 
+	padding: 60px;
+	word-wrap: break-word;
+	font-family: 'Lato', sans-serif;
+	font-size: larger;
+
+}
+#mh{
+	margin-top:10px;
+}
+
+
+#mapinput{
+		text-align:center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}
+#resp{
+	position: absolute;
+	margin-top:100px;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+}
+#results{
+	margin-top:200px;
+}
+
+#aboutopp{
+	position:absolute;
+    top:195px;
+    right: 10px;
+
+	width: 400px; 
+	padding: 60px;
+	word-wrap: break-word;
+	font-family: 'Lato', sans-serif;
+	font-size: larger;
+
+}
+	
+#aq{
+	padding: 1em;
+    height: 5%;
+
+	background-color: #6D9886;
+	text-align: center;
+	font-size: 18px;
+	
+}
+#provider{
+	text-decoration: underline;
+	font-family: 'Lato', sans-serif;
+}
+
+#aboutmove{
+	position: absolute;
+	bottom: 0;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+
+}
+#rdiv{
+	margin-top: 280px;position: absolute;
+	
+	
+	font-family: 'Lato', sans-serif;
+}
+#sublog{
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+}
+#natres{
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	
+}
+#sb{	position:absolute;
+    top:90px;
+    right: 775px;
+
+	width: 800px; 
+	padding: 60px;
+	word-wrap: break-word;
+	font-family: 'Lato', sans-serif;
+	font-size: larger;
+
+
+}
+
+  #disclaimer{
+	text-align: center;
+	line-height: 100px;
+
+font-size: 18px;
+font-family: 'Lato', sans-serif;
+	
+  }
+.affcontainer{
+	position: fixed;
+	left: 50%;
+	bottom: 20px;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+}
+.sign-in{
+	font-family: 'Lato', sans-serif;
+}
+
+#affirmation-btn{
+	background-color:black;
+	border: none;
+	color: white;
+	
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+
+	
+}
+#patitle{
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	color:black
+}
+.subtitle{
+	font-family: 'Lato', sans-serif;
+}
+
+#wtitle{
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	color:black;
+	text-align: center;
+}	
